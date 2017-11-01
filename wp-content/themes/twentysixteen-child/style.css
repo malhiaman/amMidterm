@@ -1,0 +1,67 @@
+/*
+Theme Name: Twenty Sixteen Child
+Theme URI: 
+Description: A child theme of twentysixteen
+Author: 
+Author URI: 
+Template: twentysixteen
+Version: 0.1.0
+*/
+
+
+/* remove info from footer */
+.site-info a {
+    display: none;
+}
+
+/* remove heading 3 */
+h3{
+    display:none;
+}
+
+/*change font-size of post title h1 and h2 */
+
+h1.entry-title {
+ font-size: 1.5rem
+}
+
+h2.entry-title {
+ font-size: 1.5rem
+}
+
+
+/*change font-size of previous and next links */
+.nav-links .post-title {
+    font-size: 1rem;
+}
+
+
+
+/*remove meta data from blog post */
+.entry-footer {
+    display: none;
+}
+
+
+/* change colour and size of horiziontal line of sidebar widget */
+.widget {
+	border-top: 0.5px solid #d0d0d0;
+	margin-bottom: 0.5em;
+	padding-top: 1.75em;
+}
+
+
+/* change colour and size of horiziontal line of nav next and previous */
+.post-navigation  {
+    border-top: 0.5px solid #d0d0d0;
+    border-bottom: 0.5px solid #d0d0d0;
+    
+}
+.post-navigation div + div {
+    border-top: 0.5px solid #d0d0d0;
+}
+
+/* change colour and size of horiziontal line of comment on attachment page */
+.comments-title, .comment-reply-title{
+  border-top: 0.5px solid #d0d0d0;  
+}
